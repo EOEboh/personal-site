@@ -3,34 +3,22 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+Hello there, my name is Emmanuel O. Eboh, and I am a software engineer with many focus in and around web development.
+I enjoy building web apps and productivity tools targeted at solving business and personal needs. Whenever I&apos;m not
+coding, then I&apos;m most likely putting together my thought pieces in form of a blog article.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+My leisure activities include playing basketball, watching a documentary or simply pranking Mma (laughs).
 
 <div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+  <img src="/assets/emmanueleboh.jpg" class="sm:w-1/2 mx-auto" alt="a picture of me">
 </div>
 
 ## Tech Stack
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
-
-## Features
-
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+- JavaScript/TypeScript
+- React.js
+- Java/Springboot
+- Node.js
+- Git Version Control
+- Technical Documentation
+- Web Testing
