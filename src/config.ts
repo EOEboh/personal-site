@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Emmanuel O. Eboh",
   desc: "Breaking down complex concepts into simple, concise form.",
   title: "Emmanuel O. Eboh",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "new-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 5,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes

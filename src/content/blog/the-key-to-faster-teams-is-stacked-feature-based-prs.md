@@ -10,6 +10,7 @@ tags:
   - pull-request
   - git
   - software development
+ogImage: "new-og.jpg"
 description: Teams can move fast without the bottlenecks provided by code reviews. Everything from feature development to reviews can happen concurrently by using stacked pull requests.
 ---
 
