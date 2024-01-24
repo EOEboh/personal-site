@@ -24,7 +24,7 @@ Imagine this scenario— You work at a fast-moving healthcare startup as a devel
 2. Consultant doctors can request the user to _schedule a meeting_ at a certain date.
 3. The user can then make a _one-time payment_ and confirm a scheduled meeting.
 
-You quickly get to work by, of course, working on the first feature on the list, but after some time, you complete the first feature and request a teammate or colleague to review a pull request (PR) you just opened, containing about a hundred lines of code. This is _huge_! It contained many changes.
+You quickly get to work by, of course, working on the first feature on the list, but after some time, you complete the first feature and request a teammate or colleague to review a pull request (PR) you just opened, containing about a hundred lines of code. This is _huge_! It contains many changes.
 
 Additionally, because the code review will potentially take some time, you cannot move on to the next high-priority feature— adding the ability to _schedule a meeting,_ until this huge PR is reviewed and merged, in other words, you’re blocked!
 
@@ -45,7 +45,7 @@ You probably already guessed the solution to this stumbling block, a no-brainer 
 
 > Okay then just make sure you submit smaller pull requests at a time
 
-Yeah, no doubt, that sounds right, but this does not exactly fasten the code review process as many would think.
+Yeah, no doubt, that sounds right, but this does not exactly quicken the code review process as many would think.
 
 Breaking the first feature into smaller PRs could still take a lot of time to review and you would still need to wait for the preceding PR to be merged into _main_ (or whatever your parent branch is) before hopping on to the next feature.
 
