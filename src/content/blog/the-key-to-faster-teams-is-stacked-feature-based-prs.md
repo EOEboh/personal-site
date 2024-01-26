@@ -18,7 +18,7 @@ description: Teams can move fast without the bottlenecks provided by code review
 
 # The Key To Faster Teams is Stacked, Commit-Based PRs
 
-Imagine this scenario— You work at a fast-moving healthcare startup as a developer, and you are tasked to implement two high-priority features on the healthcare app that are interconnected. The features include:
+Imagine this scenario— You work at a fast-moving healthcare startup as a developer, and you are tasked to implement three high-priority features on the healthcare app that are interconnected. The features include:
 
 1. The user can send _chat complaints_ to a chosen consultant doctor.
 2. Consultant doctors can request the user to _schedule a meeting_ at a certain date.
