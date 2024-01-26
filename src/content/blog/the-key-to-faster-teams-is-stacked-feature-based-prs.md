@@ -127,6 +127,32 @@ git push origin feature-three
 
 The idea is simple, create branches off the previous branch and build upon them like onion layers or _stacks._
 
+## Benefits Of The Stacked PR Workflow
+
+### Free flow development workflows
+
+This is obviously the main benefit of this approach; the interrupting bottlenecks of code reviews are eliminated leading to a smoother experience for the team.
+
+### Faster Shipment And Releases
+
+Since blockers are eliminated during the development process, this almost guarantees faster shipment of features and bug fixes.
+
+### Faster and More Quality Reviews
+
+The smaller and more granular the PRs, the faster and more quality the reviews will be. Most developers are not willing to thoroughly review a large PR with several hundreds of diffs. It distracts them from their own tasks, it is draining, and there could be excess back and forth. Granular PRs are a way to ensure a quality code review process.
+
+### Easier Debugging Process
+
+When changes are more granular and isolated, testing and debugging become easy. There are fewer risks of conflicts with other features being developed; this is one of the biggest perks the stack PR approach provides.
+
+### Developer **Flexibility**
+
+Developers maintain the freedom and flexibility of ensuring granular and precise changes to commits using _Git_ features like interactive rebase and preliminary branch merge before the final merge.
+
+### Better Structured Pull Requests
+
+The stacked PR approach gives us better immunity against things like merging PRs in the wrong order, misapplied changes and so on. Most likely arising from human error which is inevitable in every work process we do.
+
 ## Here’s Some Little Drawbacks Though
 
 Every workflow has its drawbacks, which is fine. The stacked PR workflow best suits teams that need to move fast— fast code reviews, fast feature deployments, lower learning curve. However, let’s highlight a few drawbacks:
