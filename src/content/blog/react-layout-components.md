@@ -2,7 +2,7 @@
 author: Emmanuel O. Eboh
 pubDatetime: 2024-07-25T11:39:30.573Z
 modDatetime: 2024-07-25T11:39:30.573Z
-title: React Design Patterns Layout Components
+title: "React Design Patterns: Layout Components"
 slug: react-design-patterns-layout-components
 featured: true
 draft: false
@@ -10,7 +10,7 @@ tags:
   - design-patterns
   - react
   - frontend
-ogImage: "new-og.jpg"
+ogImage: "layout-OG.jpg"
 description: Frequently needed components can be defined once as a layout and reused across the app. Less imports, less code, more flexibility, better maintainability.
 ---
 
