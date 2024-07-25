@@ -2,7 +2,7 @@
 author: Emmanuel O. Eboh
 pubDatetime: 2024-01-24T11:39:30.573Z
 modDatetime: 2024-01-24T11:39:30.573Z
-title: The Key To Faster Teams is Stacked, Commit-Based PRs
+title: The Key To Faster Teams is Stacked, Commit-Based Pull Requests
 slug: the-key-to-faster-teams-is-stacked-feature-based-prs
 featured: true
 draft: false
