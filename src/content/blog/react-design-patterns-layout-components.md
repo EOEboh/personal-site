@@ -54,7 +54,7 @@ A layout component acts as a parent template, it dynamically accepts any compone
 
 Let’s take a look at a screen-splitter component whose job it is to divide a part of the viewport into two sections or sides in a side-by-side fashion:
 
-```markup
+```bash
 const SplitScreen = ({
   children,
   rightWidth = "0 0 80%",
@@ -106,7 +106,7 @@ export default HomePage;
 
 We can breakdown the above snippet with further explanations for each part and how they work together to achieve desired results:
 
-```markup
+```bash
    	  <SplitScreen leftWidth={"0 0 80%"} rightWidth={"0 0 20%"}>
         <LeftSidePane title={"This is the left pane"} />
         <RightSidePane title={"This is the right pane"} />
@@ -117,7 +117,7 @@ The above snippet is an example of a layout component called `SplitScreen`, whic
 
 To further breakdown how this pattern works, take a look at the code block below:
 
-```markup
+```bash
 const SplitScreen = ({
   children,
   rightWidth = "0 0 80%",
@@ -151,10 +151,7 @@ The `SplitScreen` layout component contains every style configuration necessary 
 
 The other part of the `SplitScreen` component is the `children` prop, in this case, the component expects two children. The `children` is usually a JSX component but could also be a string, number or anything else. In the above snippet, the `children` prop is destructured and rendered with their respective styles.
 
-<aside>
-❗ Please note that different styling solutions can be applied to a layout component. Feel free to use *Tailwind*, *Styled Components* or whatever styling approach you prefer.
-
-</aside>
+> ❗ Please note that different styling solutions can be applied to a layout component. Feel free to use _Tailwind_, _Styled Components_ or whatever styling approach you prefer.
 
 #### Modal Example
 
@@ -166,7 +163,7 @@ You can see that the principle stays the same, right?
 
 Take a look at the code below, utilizing the `*styled-components*` approach, (feel free to use any styling approach):
 
-```markup
+```bash
 import styled from "styled-components";
 
 const ModalBackground = styled.div`
@@ -216,7 +213,7 @@ The next part is the set of props which makes the modal operational, these inclu
 
 Consuming this modal layout component is pretty straightforward as all you need to do is wrap it around any component you intend to call on a modal:
 
-```markup
+```bash
 // Any component to show as a modal on the UI
 import { ComponentToShowAsModal } from "./ComponentToShowAsModal";
 import { Modal } from "./Modal";
@@ -256,10 +253,7 @@ A good and common reason to utilize the layout component pattern is when you hav
 
 etcetera
 
-<aside>
-❗ It is also important to note that only components that are not frequently updated (if ever), should be structured as a layout.
-
-</aside>
+> ❗ It is also important to note that only components that are not frequently updated (if ever), should be structured as a layout.
 
 ## Conclusion
 
