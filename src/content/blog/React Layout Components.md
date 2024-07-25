@@ -2,7 +2,7 @@
 author: Emmanuel O. Eboh
 pubDatetime: 2024-07-25T11:39:30.573Z
 modDatetime: 2024-07-25T11:39:30.573Z
-title: React Design Patterns: Layout Components
+title: "React Design Patterns: Layout Components"
 slug: react-design-patterns-layout-components
 featured: true
 draft: false
