@@ -7,6 +7,7 @@ import Datetime from "@components/Datetime";
 import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "@utils/slugify";
 import ShareLinks from "@components/ShareLinks.astro";
+import PostComments from "@components/PostComments.astro";
 
 export interface Props {
   post: CollectionEntry<"blog">;
@@ -92,6 +93,7 @@ const layoutProps = {
 
       <ShareLinks />
     </div>
+    <PostComments />
   </main>
   <Footer />
 </Layout>
@@ -111,7 +113,7 @@ const layoutProps = {
   function addHeadingLinks() {
     let headings = Array.from(document.querySelectorAll("h2, h3, h4, h5, h6"));
     for (let heading of headings) {
-      heading.classList.add("group")
+      heading.classList.add("group");
       let link = document.createElement("a");
       link.innerText = "#";
       link.className = "heading-link hidden group-hover:inline-block ml-2";
