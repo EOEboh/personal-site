@@ -1,7 +1,7 @@
 ---
 author: Emmanuel O. Eboh
-pubDatetime: 024-08-10T23:07:08.674Z
-modDatetime: 024-08-10T23:07:08.674Z
+pubDatetime: 2024-08-10T23:07:08.674Z
+modDatetime: 2024-08-10T23:07:08.674Z
 title: "Writing Quality ES6 JavaScript Modules"
 slug: writing-quality-es6-modules-in-javascript
 featured: true
