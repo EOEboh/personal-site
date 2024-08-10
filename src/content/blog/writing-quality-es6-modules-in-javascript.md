@@ -232,7 +232,8 @@ function isEven(number) {
 export { calculateRectangleArea, logMessage, isEven };
 ```
 
-The degree of relationship between modules is a concept known as [Cohesion](<https://en.wikipedia.org/wiki/Cohesion_(computer_science)>) in computer science.
+The degree of relationship between modules is a concept known as <a href="https://en.wikipedia.org/wiki/Cohesion_(computer_science)" target="_blank" class="custom-class">Cohesion</a>
+in computer science.
 
 I consider modules focused on a single task to be related. Related modules should be co-located for a variety of reasons:
 
@@ -267,10 +268,7 @@ function clearProfile() {
 export { setProfile, getProfile, clearProfile };
 ```
 
-<aside>
-❗ High cohesion is best achieved when methods within a module carry out a limited number of closely related activities
-
-</aside>
+> ❗ High cohesion is best achieved when methods within a module carry out a limited number of closely related activities
 
 ### 5. Take Advantage of the Module Objects Pattern
 
@@ -278,7 +276,7 @@ From experience, as modules grow, they tend to get messy and disjointed really q
 
 An effective solution is to unify the API of each module into a single object, and every function and method is accessed via the main object. This is known as [Module Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#creating_a_module_object).
 
-I will show you guys an example from the MDN [js-examples](https://github.com/mdn/js-examples/tree/main/module-examples/module-objects) repository. The mechanism of module objects is as follows:
+I will show you guys an example from the MDN [js-examples](https://github.com/mdn/js-examples/tree/main/module-examples/module-objects) repository. The mechanism of this example of module objects is as follows:
 
 1. A `canvas` module is created
 2. The canvas module exports `create` and `createReportList` functions as its public API
