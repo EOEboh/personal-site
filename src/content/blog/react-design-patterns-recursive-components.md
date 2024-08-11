@@ -38,7 +38,8 @@ etcetera
 
 You have probably heard or seen the term _“recursion”_ in your software engineering career; maybe you have an idea of what it means, or maybe not at all. If you have no idea what it means, don’t worry; it will be explained briefly in this section.
 
-According to [Wikipedia](<https://en.wikipedia.org/wiki/Recursion_(computer_science)>), recursion is a method of solving a computational programming problem where the solution depends on solutions to smaller instances of the same problem. The application of recursion usually involves calling a function within itself until a base case (or base condition) is met.
+According to <a href="https://en.wikipedia.org/wiki/Recursion_(computer_science)" target="_blank" class="custom-class">Wikipedia</a>
+, recursion is a method of solving a computational programming problem where the solution depends on solutions to smaller instances of the same problem. The application of recursion usually involves calling a function within itself until a base case (or base condition) is met.
 
 Usually, a recursive pattern involves two main components:
 

@@ -276,7 +276,8 @@ From experience, as modules grow, they tend to get messy and disjointed really q
 
 An effective solution is to unify the API of each module into a single object, and every function and method is accessed via the main object. This is known as [Module Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#creating_a_module_object).
 
-I will show you guys an example from the MDN [js-examples](https://github.com/mdn/js-examples/tree/main/module-examples/module-objects) repository. The mechanism of this example of module objects is as follows:
+I will show you guys an example from the MDN <a href="https://github.com/mdn/js-examples/tree/main/module-examples/module-objects" target="_blank" class="custom-class">js-examples</a>
+repository. The mechanism of this example of module objects is as follows:
 
 1. A `canvas` module is created
 2. The canvas module exports `create` and `createReportList` functions as its public API
