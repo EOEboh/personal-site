@@ -274,7 +274,7 @@ export { setProfile, getProfile, clearProfile };
 
 From experience, as modules grow, they tend to get messy and disjointed really quickly! This especially has to do with the export-import management of multiple module APIs.
 
-An effective solution is to unify the API of each module into a single object, and every function and method is accessed via the main object. This is known as [Module Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#creating_a_module_object).
+An effective solution is to unify the API of each module into a single object, and every function and method is accessed via the main object. This is known as <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#creating_a_module_object" target="_blank" class="custom-class">Module Objects</a>.
 
 I will show you guys an example from the MDN <a href="https://github.com/mdn/js-examples/tree/main/module-examples/module-objects" target="_blank" class="custom-class">js-examples</a>
 repository. The mechanism of this example of module objects is as follows:
