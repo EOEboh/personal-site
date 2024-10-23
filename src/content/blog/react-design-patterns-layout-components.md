@@ -10,7 +10,7 @@ tags:
   - design-patterns
   - react
   - frontend
-ogImage: "layout-OG.png"
+ogImage: "/open-graph/layout-OG.png"
 description: Frequently needed components can be defined once as a layout and reused across the app. Less imports, less code, more flexibility, better maintainability.
 ---
 

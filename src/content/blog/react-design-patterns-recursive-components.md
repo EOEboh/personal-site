@@ -10,7 +10,7 @@ tags:
   - design-patterns
   - react
   - frontend
-ogImage: "recursion-OG.png"
+ogImage: "/open-graph/recursion-OG.png"
 description: Nested and hierarchical data can be better organized using recursive component design patterns in a React code base.
 ---
 
