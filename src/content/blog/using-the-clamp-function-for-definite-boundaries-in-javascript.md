@@ -69,12 +69,8 @@ This method explicitly breaks down its algorithm by doing the following steps:
 2. it proceeds to check if the provided value is greater than the upper limit, if true, it returns the upper limit value instead
 3. If the first 2 checks both return false, then it means the value is within the acceptable range and it is returned.
 
-<aside>
-❗
-
-You could use ternaries for this as well to get the same result
-
-</aside>
+> ❗
+> You could use ternaries for this as well to get the same result
 
 ## Edge Cases?
 
